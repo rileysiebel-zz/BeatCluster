@@ -29,6 +29,8 @@
 	// Do any additional setup after loading the view.
     _titleLabel.text = _songDetailsModel[0];
     _artistLabel.text = _songDetailsModel[1];
+    _thumbsUpCountLabel.text = _songDetailsModel[2];
+    _thumbsDownCountLabel.text = _songDetailsModel[3];
 }
 
 - (void)didReceiveMemoryWarning

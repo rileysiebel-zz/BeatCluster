@@ -11,6 +11,8 @@
 @interface BCJukeBoxDetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *artistLabel;
+@property (weak, nonatomic) IBOutlet UILabel *thumbsUpCountLabel;
+@property (weak, nonatomic) IBOutlet UILabel *thumbsDownCountLabel;
 
 // Bad way to have a model, use CoreData
 // [0] title

@@ -256,12 +256,48 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doo-Bc-lnn">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doo-Bc-lnn">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="cf2-dZ-v23"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKY-FN-0py">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Artist" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MKY-FN-0py">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WzS-D3-cXJ">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Artist" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOz-31-GfT">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ThumbsUps " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSd-Kw-OP9">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="ThumbsDowns" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBe-UR-35b">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Ups" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yeB-3q-IyE">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Downs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mm-la-3hY">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="SSs-xF-Wge"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -269,15 +305,31 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="doo-Bc-lnn" firstAttribute="leading" secondItem="AhS-Ra-gwp" secondAttribute="leading" constant="53" id="8OP-rR-xVy"/>
-                            <constraint firstItem="MKY-FN-0py" firstAttribute="leading" secondItem="doo-Bc-lnn" secondAttribute="leading" type="default" id="KeP-Hs-cm3"/>
-                            <constraint firstItem="MKY-FN-0py" firstAttribute="top" secondItem="AhS-Ra-gwp" secondAttribute="top" constant="126" id="QcN-p7-xav"/>
-                            <constraint firstItem="doo-Bc-lnn" firstAttribute="top" secondItem="AhS-Ra-gwp" secondAttribute="top" constant="52" id="tAU-jq-VCx"/>
+                            <constraint firstItem="xSd-Kw-OP9" firstAttribute="top" secondItem="AhS-Ra-gwp" secondAttribute="top" constant="197" id="05E-jg-x4L"/>
+                            <constraint firstAttribute="trailing" secondItem="3mm-la-3hY" secondAttribute="trailing" constant="68" id="1ON-Zb-dBg"/>
+                            <constraint firstItem="yeB-3q-IyE" firstAttribute="trailing" secondItem="MKY-FN-0py" secondAttribute="trailing" type="default" id="3Y9-mJ-cBi"/>
+                            <constraint firstItem="WzS-D3-cXJ" firstAttribute="leading" secondItem="AhS-Ra-gwp" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9hG-x8-cL1"/>
+                            <constraint firstItem="yeB-3q-IyE" firstAttribute="baseline" secondItem="xSd-Kw-OP9" secondAttribute="baseline" type="default" id="C3d-eZ-KkJ"/>
+                            <constraint firstItem="JBe-UR-35b" firstAttribute="leading" secondItem="AhS-Ra-gwp" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="DeR-mb-0aU"/>
+                            <constraint firstItem="OOz-31-GfT" firstAttribute="top" secondItem="AhS-Ra-gwp" secondAttribute="top" constant="125" id="E3L-5g-wNB"/>
+                            <constraint firstItem="WzS-D3-cXJ" firstAttribute="baseline" secondItem="doo-Bc-lnn" secondAttribute="baseline" type="default" id="JcX-fb-qPR"/>
+                            <constraint firstItem="yeB-3q-IyE" firstAttribute="leading" secondItem="3mm-la-3hY" secondAttribute="leading" type="default" id="M5u-0O-9V8"/>
+                            <constraint firstAttribute="bottom" secondItem="JBe-UR-35b" secondAttribute="bottom" constant="170" id="TAY-DY-A8j"/>
+                            <constraint firstItem="OOz-31-GfT" firstAttribute="baseline" secondItem="MKY-FN-0py" secondAttribute="baseline" type="default" id="Y5x-Hy-vfJ"/>
+                            <constraint firstItem="JBe-UR-35b" firstAttribute="baseline" secondItem="3mm-la-3hY" secondAttribute="baseline" type="default" id="aFK-RZ-YU3"/>
+                            <constraint firstItem="OOz-31-GfT" firstAttribute="leading" secondItem="AhS-Ra-gwp" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="gCL-PI-wp9"/>
+                            <constraint firstItem="MKY-FN-0py" firstAttribute="trailing" secondItem="doo-Bc-lnn" secondAttribute="trailing" type="default" id="iud-3i-dQv"/>
+                            <constraint firstItem="MKY-FN-0py" firstAttribute="leading" secondItem="doo-Bc-lnn" secondAttribute="leading" type="default" id="oEX-kg-tSJ"/>
+                            <constraint firstItem="WzS-D3-cXJ" firstAttribute="top" secondItem="AhS-Ra-gwp" secondAttribute="top" constant="51" id="r4N-W5-PFX"/>
+                            <constraint firstItem="xSd-Kw-OP9" firstAttribute="leading" secondItem="AhS-Ra-gwp" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="wbF-UX-vDG"/>
+                            <constraint firstItem="yeB-3q-IyE" firstAttribute="leading" secondItem="MKY-FN-0py" secondAttribute="leading" type="default" id="zk6-P2-Zni"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="JukeBox - Detail" id="q6m-G1-RZo"/>
                     <connections>
                         <outlet property="artistLabel" destination="MKY-FN-0py" id="iCk-uB-vrb"/>
+                        <outlet property="thumbsDownCountLabel" destination="3mm-la-3hY" id="Fna-tM-69h"/>
+                        <outlet property="thumbsUpCountLabel" destination="yeB-3q-IyE" id="8sd-JF-MMy"/>
                         <outlet property="titleLabel" destination="doo-Bc-lnn" id="go2-U0-LtC"/>
                     </connections>
                 </viewController>
@@ -381,6 +433,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BCJukeBoxDetailViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="artistLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="thumbsDownCountLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="thumbsUpCountLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
