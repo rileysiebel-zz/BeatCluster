@@ -104,7 +104,10 @@
 {
     if([[segue identifier] isEqualToString:@"showJukeBoxDetailView"])
     {
-        //TODO RILEY YOU ARE HERE
+        BCJukeBoxDetailViewController *detailViewController = [segue destinationViewController];
+        NSIndexPath *myPath = [self.tableView indexPathForSelectedRow];
+        int row = [myPath row];
+        detailViewController.songDetailsModel = @[_songTitles[row], _songArtists[row], _songThumbsUps[row], _songThumbsDowns[row]];
     }
 }
 

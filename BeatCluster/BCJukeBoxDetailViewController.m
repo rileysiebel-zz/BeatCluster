@@ -27,8 +27,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    _titleLabel = _songDetailsModel[0];
-    _artistLabel = _songDetailsModel[1];
+    _titleLabel.text = _songDetailsModel[0];
+    _artistLabel.text = _songDetailsModel[1];
 }
 
 - (void)didReceiveMemoryWarning
