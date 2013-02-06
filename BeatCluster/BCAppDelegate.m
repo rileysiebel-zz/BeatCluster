@@ -1,12 +1,14 @@
 //
 //  BCAppDelegate.m
-//  BeatCluster
+//  Temp
 //
-//  Created by Arthur Riley Siebel on 2/5/13.
+//  Created by Arthur Riley Siebel on 2/6/13.
 //  Copyright (c) 2013 SyncSoft. All rights reserved.
 //
 
 #import "BCAppDelegate.h"
+
+#import "BCRootTabBarViewController.h"
 
 @implementation BCAppDelegate
 
@@ -16,14 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    //TODO Riley Remove This
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    // Override point for customization after application launch.
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    [self.window makeKeyAndVisible];
+    // Override point for customization after application launch.
+    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
+    BCRootTabBarViewController *controller = (BCRootTabBarViewController *)self.window.rootViewController;
+//    BCRootTabBarViewController *controller = (BCRootTabBarViewController *)navigationController.topViewController;
+    controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -91,7 +93,7 @@
     if (_managedObjectModel != nil) {
         return _managedObjectModel;
     }
-    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"BeatCluster" withExtension:@"momd"];
+    NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Temp" withExtension:@"momd"];
     _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     return _managedObjectModel;
 }
@@ -104,7 +106,7 @@
         return _persistentStoreCoordinator;
     }
     
-    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"BeatCluster.sqlite"];
+    NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"Temp.sqlite"];
     
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];

@@ -1,8 +1,8 @@
 //
 //  BCAppDelegate.h
-//  BeatCluster
+//  Temp
 //
-//  Created by Arthur Riley Siebel on 2/5/13.
+//  Created by Arthur Riley Siebel on 2/6/13.
 //  Copyright (c) 2013 SyncSoft. All rights reserved.
 //
 
