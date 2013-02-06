@@ -38,9 +38,12 @@
                                     <action selector="volumeChanged:" destination="ZHU-8j-ada" eventType="valueChanged" id="eJR-c5-Ebm"/>
                                 </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OM1-Bf-wKB">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OM1-Bf-wKB">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="1FQ-3J-VBO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Play">
+                                <state key="normal" image="playButton.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -51,9 +54,12 @@
                                     <action selector="playPause:" destination="ZHU-8j-ada" eventType="touchUpInside" id="VsL-g5-OE7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aON-3d-HIW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aON-3d-HIW">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="QYJ-OG-rJp"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Next">
+                                <state key="normal" image="NextButton.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -64,9 +70,13 @@
                                     <action selector="nextSong:" destination="ZHU-8j-ada" eventType="touchUpInside" id="Ezq-uL-nzU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suW-sH-fIV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="suW-sH-fIV">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="iW8-8J-mkZ"/>
+                                    <constraint firstAttribute="width" constant="88" id="rKf-hu-t5F"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Previous">
+                                <state key="normal" image="PreviousButton.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -91,21 +101,24 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="arE-GG-zsH" secondAttribute="bottom" constant="99" id="193-63-ybR"/>
+                            <constraint firstItem="aON-3d-HIW" firstAttribute="top" secondItem="suW-sH-fIV" secondAttribute="top" type="default" id="4k4-rf-V84"/>
+                            <constraint firstItem="aON-3d-HIW" firstAttribute="baseline" secondItem="suW-sH-fIV" secondAttribute="baseline" type="default" id="7ow-Ok-pdK"/>
                             <constraint firstItem="xTV-fu-ItP" firstAttribute="leading" secondItem="kdT-6J-MCy" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="FBY-p0-tJ0"/>
                             <constraint firstItem="PjJ-si-eeZ" firstAttribute="leading" secondItem="kdT-6J-MCy" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="GKV-zB-LxI"/>
                             <constraint firstAttribute="bottom" secondItem="PjJ-si-eeZ" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="KLf-ap-VKi"/>
                             <constraint firstItem="PjJ-si-eeZ" firstAttribute="top" secondItem="suW-sH-fIV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="LzZ-2n-CPO"/>
                             <constraint firstItem="TAL-EM-cN4" firstAttribute="top" secondItem="kdT-6J-MCy" secondAttribute="top" constant="222" id="N3R-nl-Z3A"/>
                             <constraint firstAttribute="bottom" secondItem="xTV-fu-ItP" secondAttribute="bottom" constant="147" id="NL4-CZ-0Fo"/>
+                            <constraint firstItem="aON-3d-HIW" firstAttribute="centerY" secondItem="OM1-Bf-wKB" secondAttribute="centerY" type="default" id="NlL-RO-Vpg"/>
+                            <constraint firstItem="PjJ-si-eeZ" firstAttribute="top" secondItem="OM1-Bf-wKB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="QEe-A9-OAU"/>
+                            <constraint firstItem="PjJ-si-eeZ" firstAttribute="top" secondItem="aON-3d-HIW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="QaE-5t-68B"/>
                             <constraint firstItem="TAL-EM-cN4" firstAttribute="centerX" secondItem="3X7-ry-up8" secondAttribute="centerX" type="default" id="XgQ-Id-xne"/>
                             <constraint firstItem="OM1-Bf-wKB" firstAttribute="centerX" secondItem="PjJ-si-eeZ" secondAttribute="centerX" type="default" id="YOL-mz-OhW"/>
                             <constraint firstItem="aON-3d-HIW" firstAttribute="leading" secondItem="OM1-Bf-wKB" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Z21-MW-NwQ"/>
                             <constraint firstItem="suW-sH-fIV" firstAttribute="baseline" secondItem="OM1-Bf-wKB" secondAttribute="baseline" type="default" id="ZiM-Cx-6Kg"/>
                             <constraint firstAttribute="trailing" secondItem="PjJ-si-eeZ" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="bgk-pN-f75"/>
-                            <constraint firstItem="aON-3d-HIW" firstAttribute="baseline" secondItem="OM1-Bf-wKB" secondAttribute="baseline" type="default" id="eYx-nm-bgO"/>
                             <constraint firstItem="3X7-ry-up8" firstAttribute="top" secondItem="kdT-6J-MCy" secondAttribute="top" constant="20" symbolic="YES" type="default" id="hFA-ej-FDI"/>
                             <constraint firstAttribute="bottom" secondItem="yea-JQ-oTL" secondAttribute="bottom" constant="198" id="nxD-gc-jHa"/>
                             <constraint firstItem="yea-JQ-oTL" firstAttribute="leading" secondItem="kdT-6J-MCy" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="oh5-2S-PYq"/>
@@ -407,6 +420,55 @@
             <point key="canvasLocation" x="587" y="709"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="NextButton.png" width="40" height="30"/>
+        <image name="PreviousButton.png" width="40" height="30"/>
+        <image name="playButton.png" width="40" height="30"/>
+    </resources>
+    <classes>
+        <class className="BCHomeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BCHomeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="nextSong:"/>
+                <relationship kind="action" name="playPause:"/>
+                <relationship kind="action" name="previousSong:"/>
+                <relationship kind="action" name="showMediaPicker:"/>
+                <relationship kind="action" name="volumeChanged:"/>
+                <relationship kind="outlet" name="albumImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="albumLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="artistLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="playPauseButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="volumeSlider" candidateClass="UISlider"/>
+            </relationships>
+        </class>
+        <class className="BCJukeBoxCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BCJukeBoxCell.h"/>
+            <relationships>
+                <relationship kind="action" name="thumbsDown:"/>
+                <relationship kind="action" name="thumbsUp:"/>
+                <relationship kind="outlet" name="artistLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="thumbsDownCountLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="thumbsUpCountLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="BCJukeBoxDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BCJukeBoxDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="artistLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="thumbsDownCountLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="thumbsUpCountLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="titleLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="BCJukeBoxViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BCJukeBoxViewController.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
