@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2E2F5F16C1F189002CDDCD /* BCJukeBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */; };
 		BF5B765716C1D5FE00A9C812 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765616C1D5FE00A9C812 /* UIKit.framework */; };
 		BF5B765916C1D5FE00A9C812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765816C1D5FE00A9C812 /* Foundation.framework */; };
 		BF5B765B16C1D5FE00A9C812 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765A16C1D5FE00A9C812 /* CoreGraphics.framework */; };
@@ -18,9 +19,15 @@
 		BF5B766D16C1D5FE00A9C812 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766C16C1D5FE00A9C812 /* Default@2x.png */; };
 		BF5B766F16C1D5FE00A9C812 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766E16C1D5FE00A9C812 /* Default-568h@2x.png */; };
 		BF5B767216C1D5FE00A9C812 /* BeatCluster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF5B767016C1D5FE00A9C812 /* BeatCluster.xcdatamodeld */; };
+		BF5B767916C1D65000A9C812 /* BeatClusterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5B767816C1D65000A9C812 /* BeatClusterStoryboard.storyboard */; };
+		BF5B767F16C1D93800A9C812 /* BCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B767E16C1D93800A9C812 /* BCHomeViewController.m */; };
+		BF5B768216C1D9F900A9C812 /* BCJukeBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B768116C1D9F900A9C812 /* BCJukeBoxCell.m */; };
+		BF5B768516C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B768416C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF2E2F5D16C1F189002CDDCD /* BCJukeBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCJukeBoxViewController.h; sourceTree = "<group>"; };
+		BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCJukeBoxViewController.m; sourceTree = "<group>"; };
 		BF5B765316C1D5FE00A9C812 /* BeatCluster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatCluster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5B765616C1D5FE00A9C812 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF5B765816C1D5FE00A9C812 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +43,13 @@
 		BF5B766C16C1D5FE00A9C812 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BF5B766E16C1D5FE00A9C812 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BF5B767116C1D5FE00A9C812 /* BeatCluster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeatCluster.xcdatamodel; sourceTree = "<group>"; };
+		BF5B767816C1D65000A9C812 /* BeatClusterStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BeatClusterStoryboard.storyboard; sourceTree = "<group>"; };
+		BF5B767D16C1D93800A9C812 /* BCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHomeViewController.h; sourceTree = "<group>"; };
+		BF5B767E16C1D93800A9C812 /* BCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHomeViewController.m; sourceTree = "<group>"; };
+		BF5B768016C1D9F900A9C812 /* BCJukeBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCJukeBoxCell.h; sourceTree = "<group>"; };
+		BF5B768116C1D9F900A9C812 /* BCJukeBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCJukeBoxCell.m; sourceTree = "<group>"; };
+		BF5B768316C1DC7A00A9C812 /* BCJukeBoxDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCJukeBoxDetailViewController.h; sourceTree = "<group>"; };
+		BF5B768416C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCJukeBoxDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				BF5B765E16C1D5FE00A9C812 /* BeatCluster */,
+				BF5B765F16C1D5FE00A9C812 /* Supporting Files */,
 				BF5B765516C1D5FE00A9C812 /* Frameworks */,
 				BF5B765416C1D5FE00A9C812 /* Products */,
 			);
@@ -87,7 +102,14 @@
 				BF5B766716C1D5FE00A9C812 /* BCAppDelegate.h */,
 				BF5B766816C1D5FE00A9C812 /* BCAppDelegate.m */,
 				BF5B767016C1D5FE00A9C812 /* BeatCluster.xcdatamodeld */,
-				BF5B765F16C1D5FE00A9C812 /* Supporting Files */,
+				BF5B767D16C1D93800A9C812 /* BCHomeViewController.h */,
+				BF5B767E16C1D93800A9C812 /* BCHomeViewController.m */,
+				BF5B768016C1D9F900A9C812 /* BCJukeBoxCell.h */,
+				BF5B768116C1D9F900A9C812 /* BCJukeBoxCell.m */,
+				BF5B768316C1DC7A00A9C812 /* BCJukeBoxDetailViewController.h */,
+				BF5B768416C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m */,
+				BF2E2F5D16C1F189002CDDCD /* BCJukeBoxViewController.h */,
+				BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */,
 			);
 			path = BeatCluster;
 			sourceTree = "<group>";
@@ -102,8 +124,10 @@
 				BF5B766A16C1D5FE00A9C812 /* Default.png */,
 				BF5B766C16C1D5FE00A9C812 /* Default@2x.png */,
 				BF5B766E16C1D5FE00A9C812 /* Default-568h@2x.png */,
+				BF5B767816C1D65000A9C812 /* BeatClusterStoryboard.storyboard */,
 			);
 			name = "Supporting Files";
+			path = BeatCluster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +186,7 @@
 				BF5B766B16C1D5FE00A9C812 /* Default.png in Resources */,
 				BF5B766D16C1D5FE00A9C812 /* Default@2x.png in Resources */,
 				BF5B766F16C1D5FE00A9C812 /* Default-568h@2x.png in Resources */,
+				BF5B767916C1D65000A9C812 /* BeatClusterStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +200,10 @@
 				BF5B766516C1D5FE00A9C812 /* main.m in Sources */,
 				BF5B766916C1D5FE00A9C812 /* BCAppDelegate.m in Sources */,
 				BF5B767216C1D5FE00A9C812 /* BeatCluster.xcdatamodeld in Sources */,
+				BF5B767F16C1D93800A9C812 /* BCHomeViewController.m in Sources */,
+				BF5B768216C1D9F900A9C812 /* BCJukeBoxCell.m in Sources */,
+				BF5B768516C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m in Sources */,
+				BF2E2F5F16C1F189002CDDCD /* BCJukeBoxViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +318,7 @@
 				BF5B767716C1D5FE00A9C812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
