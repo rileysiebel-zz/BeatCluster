@@ -69,7 +69,7 @@
     mediaPicker.delegate = self;
     mediaPicker.allowsPickingMultipleItems = YES;
     mediaPicker.prompt = @"Select songs to play";
-    [self presentModalViewController:mediaPicker animated:YES];
+    [self presentViewController:mediaPicker animated:YES completion:nil];
 }
 
 - (void) mediaPicker: (MPMediaPickerController *) mediaPicker didPickMediaItems: (MPMediaItemCollection *) mediaItemCollection
@@ -78,11 +78,11 @@
         [musicPlayer setQueueWithItemCollection: mediaItemCollection];
         [musicPlayer play];
     }
-    [self dismissModalViewControllerAnimated: YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (void) mediaPickerDidCancel: (MPMediaPickerController *) mediaPicker
 {
-    [self dismissModalViewControllerAnimated: YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void) registerMediaPlayerNotifications
