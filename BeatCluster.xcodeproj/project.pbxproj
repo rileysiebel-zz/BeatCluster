@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BF2E2F5F16C1F189002CDDCD /* BCJukeBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */; };
+		BF4A311516C2067C0040ACF1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4A311416C2067C0040ACF1 /* MediaPlayer.framework */; };
+		BF4A312716C207710040ACF1 /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312216C207710040ACF1 /* NextButton.png */; };
+		BF4A312816C207710040ACF1 /* noArtworkImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312316C207710040ACF1 /* noArtworkImage.png */; };
+		BF4A312916C207710040ACF1 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312416C207710040ACF1 /* pauseButton.png */; };
+		BF4A312A16C207710040ACF1 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312516C207710040ACF1 /* playButton.png */; };
+		BF4A312B16C207710040ACF1 /* PreviousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312616C207710040ACF1 /* PreviousButton.png */; };
 		BF5B765716C1D5FE00A9C812 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765616C1D5FE00A9C812 /* UIKit.framework */; };
 		BF5B765916C1D5FE00A9C812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765816C1D5FE00A9C812 /* Foundation.framework */; };
 		BF5B765B16C1D5FE00A9C812 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765A16C1D5FE00A9C812 /* CoreGraphics.framework */; };
@@ -28,6 +34,12 @@
 /* Begin PBXFileReference section */
 		BF2E2F5D16C1F189002CDDCD /* BCJukeBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCJukeBoxViewController.h; sourceTree = "<group>"; };
 		BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCJukeBoxViewController.m; sourceTree = "<group>"; };
+		BF4A311416C2067C0040ACF1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BF4A312216C207710040ACF1 /* NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextButton.png; sourceTree = "<group>"; };
+		BF4A312316C207710040ACF1 /* noArtworkImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noArtworkImage.png; sourceTree = "<group>"; };
+		BF4A312416C207710040ACF1 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		BF4A312516C207710040ACF1 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		BF4A312616C207710040ACF1 /* PreviousButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousButton.png; sourceTree = "<group>"; };
 		BF5B765316C1D5FE00A9C812 /* BeatCluster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatCluster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5B765616C1D5FE00A9C812 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF5B765816C1D5FE00A9C812 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4A311516C2067C0040ACF1 /* MediaPlayer.framework in Frameworks */,
 				BF5B765716C1D5FE00A9C812 /* UIKit.framework in Frameworks */,
 				BF5B765916C1D5FE00A9C812 /* Foundation.framework in Frameworks */,
 				BF5B765B16C1D5FE00A9C812 /* CoreGraphics.framework in Frameworks */,
@@ -67,9 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF4A312116C207710040ACF1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BF4A312216C207710040ACF1 /* NextButton.png */,
+				BF4A312316C207710040ACF1 /* noArtworkImage.png */,
+				BF4A312416C207710040ACF1 /* pauseButton.png */,
+				BF4A312516C207710040ACF1 /* playButton.png */,
+				BF4A312616C207710040ACF1 /* PreviousButton.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		BF5B764A16C1D5FE00A9C812 = {
 			isa = PBXGroup;
 			children = (
+				BF4A312116C207710040ACF1 /* Images */,
+				BF4A311416C2067C0040ACF1 /* MediaPlayer.framework */,
 				BF5B765E16C1D5FE00A9C812 /* BeatCluster */,
 				BF5B765F16C1D5FE00A9C812 /* Supporting Files */,
 				BF5B765516C1D5FE00A9C812 /* Frameworks */,
@@ -187,6 +214,11 @@
 				BF5B766D16C1D5FE00A9C812 /* Default@2x.png in Resources */,
 				BF5B766F16C1D5FE00A9C812 /* Default-568h@2x.png in Resources */,
 				BF5B767916C1D65000A9C812 /* BeatClusterStoryboard.storyboard in Resources */,
+				BF4A312716C207710040ACF1 /* NextButton.png in Resources */,
+				BF4A312816C207710040ACF1 /* noArtworkImage.png in Resources */,
+				BF4A312916C207710040ACF1 /* pauseButton.png in Resources */,
+				BF4A312A16C207710040ACF1 /* playButton.png in Resources */,
+				BF4A312B16C207710040ACF1 /* PreviousButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
