@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF29800616C2EC5700B5B3CA /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF29800516C2EC5700B5B3CA /* BCAppDelegate.m */; };
-		BF29800916C2ECBD00B5B3CA /* BCRootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF29800816C2ECBD00B5B3CA /* BCRootTabBarViewController.m */; };
 		BF2E2F5F16C1F189002CDDCD /* BCJukeBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */; };
 		BF4A311516C2067C0040ACF1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4A311416C2067C0040ACF1 /* MediaPlayer.framework */; };
 		BF4A312716C207710040ACF1 /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312216C207710040ACF1 /* NextButton.png */; };
@@ -22,6 +20,7 @@
 		BF5B765D16C1D5FE00A9C812 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765C16C1D5FE00A9C812 /* CoreData.framework */; };
 		BF5B766316C1D5FE00A9C812 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766116C1D5FE00A9C812 /* InfoPlist.strings */; };
 		BF5B766516C1D5FE00A9C812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B766416C1D5FE00A9C812 /* main.m */; };
+		BF5B766916C1D5FE00A9C812 /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B766816C1D5FE00A9C812 /* BCAppDelegate.m */; };
 		BF5B766B16C1D5FE00A9C812 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766A16C1D5FE00A9C812 /* Default.png */; };
 		BF5B766D16C1D5FE00A9C812 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766C16C1D5FE00A9C812 /* Default@2x.png */; };
 		BF5B766F16C1D5FE00A9C812 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766E16C1D5FE00A9C812 /* Default-568h@2x.png */; };
@@ -33,10 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF29800416C2EC5700B5B3CA /* BCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
-		BF29800516C2EC5700B5B3CA /* BCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
-		BF29800716C2ECBD00B5B3CA /* BCRootTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRootTabBarViewController.h; sourceTree = "<group>"; };
-		BF29800816C2ECBD00B5B3CA /* BCRootTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRootTabBarViewController.m; sourceTree = "<group>"; };
 		BF2E2F5D16C1F189002CDDCD /* BCJukeBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCJukeBoxViewController.h; sourceTree = "<group>"; };
 		BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCJukeBoxViewController.m; sourceTree = "<group>"; };
 		BF4A311416C2067C0040ACF1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -54,6 +49,8 @@
 		BF5B766216C1D5FE00A9C812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF5B766416C1D5FE00A9C812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF5B766616C1D5FE00A9C812 /* BeatCluster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeatCluster-Prefix.pch"; sourceTree = "<group>"; };
+		BF5B766716C1D5FE00A9C812 /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
+		BF5B766816C1D5FE00A9C812 /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
 		BF5B766A16C1D5FE00A9C812 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BF5B766C16C1D5FE00A9C812 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BF5B766E16C1D5FE00A9C812 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -129,8 +126,8 @@
 		BF5B765E16C1D5FE00A9C812 /* BeatCluster */ = {
 			isa = PBXGroup;
 			children = (
-				BF29800416C2EC5700B5B3CA /* BCAppDelegate.h */,
-				BF29800516C2EC5700B5B3CA /* BCAppDelegate.m */,
+				BF5B766716C1D5FE00A9C812 /* BCAppDelegate.h */,
+				BF5B766816C1D5FE00A9C812 /* BCAppDelegate.m */,
 				BF5B767016C1D5FE00A9C812 /* BeatCluster.xcdatamodeld */,
 				BF5B767D16C1D93800A9C812 /* BCHomeViewController.h */,
 				BF5B767E16C1D93800A9C812 /* BCHomeViewController.m */,
@@ -140,8 +137,6 @@
 				BF5B768416C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m */,
 				BF2E2F5D16C1F189002CDDCD /* BCJukeBoxViewController.h */,
 				BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */,
-				BF29800716C2ECBD00B5B3CA /* BCRootTabBarViewController.h */,
-				BF29800816C2ECBD00B5B3CA /* BCRootTabBarViewController.m */,
 			);
 			path = BeatCluster;
 			sourceTree = "<group>";
@@ -235,13 +230,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5B766516C1D5FE00A9C812 /* main.m in Sources */,
+				BF5B766916C1D5FE00A9C812 /* BCAppDelegate.m in Sources */,
 				BF5B767216C1D5FE00A9C812 /* BeatCluster.xcdatamodeld in Sources */,
 				BF5B767F16C1D93800A9C812 /* BCHomeViewController.m in Sources */,
 				BF5B768216C1D9F900A9C812 /* BCJukeBoxCell.m in Sources */,
 				BF5B768516C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m in Sources */,
 				BF2E2F5F16C1F189002CDDCD /* BCJukeBoxViewController.m in Sources */,
-				BF29800616C2EC5700B5B3CA /* BCAppDelegate.m in Sources */,
-				BF29800916C2ECBD00B5B3CA /* BCRootTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
