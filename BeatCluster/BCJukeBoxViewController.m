@@ -41,9 +41,9 @@
                      
                      @"Mississippi John Hurt"];
     
-    _songThumbsUps = @[@"4", @"2", @"12"];
+    _songThumbsUps = [NSMutableArray arrayWithObjects: @"4", @"2", @"12", nil];
     
-    _songThumbsDowns = @[@"2", @"7", @"1"];
+    _songThumbsDowns = [NSMutableArray arrayWithObjects: @"2", @"7", @"1", nil];
     
 
 
@@ -161,6 +161,24 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+}
+-(void) thumbsUp:    (NSString *)songName;{
+    //increment the number in _songThumbsUps
+    NSUInteger index = [_songTitles indexOfObject: songName];
+    NSString *countString = [_songThumbsUps objectAtIndex: index];
+    int count = [countString intValue];
+    count++;
+    countString = [NSString stringWithFormat:@"%d",count];
+    [_songThumbsUps replaceObjectAtIndex: index withObject: countString];
+    
+}
+-(void) thumbsDown:  (NSString *)songName;{
+    NSUInteger index = [_songTitles indexOfObject: songName];
+    NSString *countString = [_songThumbsDowns objectAtIndex: index];
+    int count = [countString intValue];
+    count++;
+    countString = [NSString stringWithFormat:@"%d",count];
+    [_songThumbsDowns replaceObjectAtIndex: index withObject: countString];
 }
 
 @end
