@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2E2F5F16C1F189002CDDCD /* BCJukeBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */; };
+		BF4A311516C2067C0040ACF1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4A311416C2067C0040ACF1 /* MediaPlayer.framework */; };
+		BF4A312716C207710040ACF1 /* NextButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312216C207710040ACF1 /* NextButton.png */; };
+		BF4A312816C207710040ACF1 /* noArtworkImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312316C207710040ACF1 /* noArtworkImage.png */; };
+		BF4A312916C207710040ACF1 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312416C207710040ACF1 /* pauseButton.png */; };
+		BF4A312A16C207710040ACF1 /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312516C207710040ACF1 /* playButton.png */; };
+		BF4A312B16C207710040ACF1 /* PreviousButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4A312616C207710040ACF1 /* PreviousButton.png */; };
+		BF5B765716C1D5FE00A9C812 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765616C1D5FE00A9C812 /* UIKit.framework */; };
+		BF5B765916C1D5FE00A9C812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765816C1D5FE00A9C812 /* Foundation.framework */; };
+		BF5B765B16C1D5FE00A9C812 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765A16C1D5FE00A9C812 /* CoreGraphics.framework */; };
+		BF5B765D16C1D5FE00A9C812 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5B765C16C1D5FE00A9C812 /* CoreData.framework */; };
+		BF5B766316C1D5FE00A9C812 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766116C1D5FE00A9C812 /* InfoPlist.strings */; };
+		BF5B766516C1D5FE00A9C812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B766416C1D5FE00A9C812 /* main.m */; };
+		BF5B766916C1D5FE00A9C812 /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B766816C1D5FE00A9C812 /* BCAppDelegate.m */; };
+		BF5B766B16C1D5FE00A9C812 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766A16C1D5FE00A9C812 /* Default.png */; };
+		BF5B766D16C1D5FE00A9C812 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766C16C1D5FE00A9C812 /* Default@2x.png */; };
+		BF5B766F16C1D5FE00A9C812 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5B766E16C1D5FE00A9C812 /* Default-568h@2x.png */; };
+		BF5B767216C1D5FE00A9C812 /* BeatCluster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF5B767016C1D5FE00A9C812 /* BeatCluster.xcdatamodeld */; };
+		BF5B767916C1D65000A9C812 /* BeatClusterStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5B767816C1D65000A9C812 /* BeatClusterStoryboard.storyboard */; };
+		BF5B767F16C1D93800A9C812 /* BCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B767E16C1D93800A9C812 /* BCHomeViewController.m */; };
+		BF5B768216C1D9F900A9C812 /* BCJukeBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B768116C1D9F900A9C812 /* BCJukeBoxCell.m */; };
+		BF5B768516C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5B768416C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF2E2F5D16C1F189002CDDCD /* BCJukeBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCJukeBoxViewController.h; sourceTree = "<group>"; };
+		BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCJukeBoxViewController.m; sourceTree = "<group>"; };
+		BF4A311416C2067C0040ACF1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BF4A312216C207710040ACF1 /* NextButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextButton.png; sourceTree = "<group>"; };
+		BF4A312316C207710040ACF1 /* noArtworkImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noArtworkImage.png; sourceTree = "<group>"; };
+		BF4A312416C207710040ACF1 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		BF4A312516C207710040ACF1 /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		BF4A312616C207710040ACF1 /* PreviousButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousButton.png; sourceTree = "<group>"; };
+		BF5B765316C1D5FE00A9C812 /* BeatCluster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatCluster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5B765616C1D5FE00A9C812 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF5B765816C1D5FE00A9C812 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF5B765A16C1D5FE00A9C812 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF5B765C16C1D5FE00A9C812 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BF5B766016C1D5FE00A9C812 /* BeatCluster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeatCluster-Info.plist"; sourceTree = "<group>"; };
+		BF5B766216C1D5FE00A9C812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF5B766416C1D5FE00A9C812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5B766616C1D5FE00A9C812 /* BeatCluster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeatCluster-Prefix.pch"; sourceTree = "<group>"; };
+		BF5B766716C1D5FE00A9C812 /* BCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppDelegate.h; sourceTree = "<group>"; };
+		BF5B766816C1D5FE00A9C812 /* BCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppDelegate.m; sourceTree = "<group>"; };
+		BF5B766A16C1D5FE00A9C812 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF5B766C16C1D5FE00A9C812 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF5B766E16C1D5FE00A9C812 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF5B767116C1D5FE00A9C812 /* BeatCluster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeatCluster.xcdatamodel; sourceTree = "<group>"; };
+		BF5B767816C1D65000A9C812 /* BeatClusterStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BeatClusterStoryboard.storyboard; sourceTree = "<group>"; };
+		BF5B767D16C1D93800A9C812 /* BCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHomeViewController.h; sourceTree = "<group>"; };
+		BF5B767E16C1D93800A9C812 /* BCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHomeViewController.m; sourceTree = "<group>"; };
+		BF5B768016C1D9F900A9C812 /* BCJukeBoxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCJukeBoxCell.h; sourceTree = "<group>"; };
+		BF5B768116C1D9F900A9C812 /* BCJukeBoxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCJukeBoxCell.m; sourceTree = "<group>"; };
+		BF5B768316C1DC7A00A9C812 /* BCJukeBoxDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCJukeBoxDetailViewController.h; sourceTree = "<group>"; };
+		BF5B768416C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCJukeBoxDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5B765016C1D5FE00A9C812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4A311516C2067C0040ACF1 /* MediaPlayer.framework in Frameworks */,
+				BF5B765716C1D5FE00A9C812 /* UIKit.framework in Frameworks */,
+				BF5B765916C1D5FE00A9C812 /* Foundation.framework in Frameworks */,
+				BF5B765B16C1D5FE00A9C812 /* CoreGraphics.framework in Frameworks */,
+				BF5B765D16C1D5FE00A9C812 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF4A312116C207710040ACF1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BF4A312216C207710040ACF1 /* NextButton.png */,
+				BF4A312316C207710040ACF1 /* noArtworkImage.png */,
+				BF4A312416C207710040ACF1 /* pauseButton.png */,
+				BF4A312516C207710040ACF1 /* playButton.png */,
+				BF4A312616C207710040ACF1 /* PreviousButton.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BF5B764A16C1D5FE00A9C812 = {
+			isa = PBXGroup;
+			children = (
+				BF4A312116C207710040ACF1 /* Images */,
+				BF4A311416C2067C0040ACF1 /* MediaPlayer.framework */,
+				BF5B765E16C1D5FE00A9C812 /* BeatCluster */,
+				BF5B765F16C1D5FE00A9C812 /* Supporting Files */,
+				BF5B765516C1D5FE00A9C812 /* Frameworks */,
+				BF5B765416C1D5FE00A9C812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5B765416C1D5FE00A9C812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5B765316C1D5FE00A9C812 /* BeatCluster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5B765516C1D5FE00A9C812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF5B765616C1D5FE00A9C812 /* UIKit.framework */,
+				BF5B765816C1D5FE00A9C812 /* Foundation.framework */,
+				BF5B765A16C1D5FE00A9C812 /* CoreGraphics.framework */,
+				BF5B765C16C1D5FE00A9C812 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF5B765E16C1D5FE00A9C812 /* BeatCluster */ = {
+			isa = PBXGroup;
+			children = (
+				BF5B766716C1D5FE00A9C812 /* BCAppDelegate.h */,
+				BF5B766816C1D5FE00A9C812 /* BCAppDelegate.m */,
+				BF5B767016C1D5FE00A9C812 /* BeatCluster.xcdatamodeld */,
+				BF5B767D16C1D93800A9C812 /* BCHomeViewController.h */,
+				BF5B767E16C1D93800A9C812 /* BCHomeViewController.m */,
+				BF5B768016C1D9F900A9C812 /* BCJukeBoxCell.h */,
+				BF5B768116C1D9F900A9C812 /* BCJukeBoxCell.m */,
+				BF5B768316C1DC7A00A9C812 /* BCJukeBoxDetailViewController.h */,
+				BF5B768416C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m */,
+				BF2E2F5D16C1F189002CDDCD /* BCJukeBoxViewController.h */,
+				BF2E2F5E16C1F189002CDDCD /* BCJukeBoxViewController.m */,
+			);
+			path = BeatCluster;
+			sourceTree = "<group>";
+		};
+		BF5B765F16C1D5FE00A9C812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5B766016C1D5FE00A9C812 /* BeatCluster-Info.plist */,
+				BF5B766116C1D5FE00A9C812 /* InfoPlist.strings */,
+				BF5B766416C1D5FE00A9C812 /* main.m */,
+				BF5B766616C1D5FE00A9C812 /* BeatCluster-Prefix.pch */,
+				BF5B766A16C1D5FE00A9C812 /* Default.png */,
+				BF5B766C16C1D5FE00A9C812 /* Default@2x.png */,
+				BF5B766E16C1D5FE00A9C812 /* Default-568h@2x.png */,
+				BF5B767816C1D65000A9C812 /* BeatClusterStoryboard.storyboard */,
+			);
+			name = "Supporting Files";
+			path = BeatCluster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5B765216C1D5FE00A9C812 /* BeatCluster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5B767516C1D5FE00A9C812 /* Build configuration list for PBXNativeTarget "BeatCluster" */;
+			buildPhases = (
+				BF5B764F16C1D5FE00A9C812 /* Sources */,
+				BF5B765016C1D5FE00A9C812 /* Frameworks */,
+				BF5B765116C1D5FE00A9C812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeatCluster;
+			productName = BeatCluster;
+			productReference = BF5B765316C1D5FE00A9C812 /* BeatCluster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5B764B16C1D5FE00A9C812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SyncSoft;
+			};
+			buildConfigurationList = BF5B764E16C1D5FE00A9C812 /* Build configuration list for PBXProject "BeatCluster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF5B764A16C1D5FE00A9C812;
+			productRefGroup = BF5B765416C1D5FE00A9C812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5B765216C1D5FE00A9C812 /* BeatCluster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5B765116C1D5FE00A9C812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5B766316C1D5FE00A9C812 /* InfoPlist.strings in Resources */,
+				BF5B766B16C1D5FE00A9C812 /* Default.png in Resources */,
+				BF5B766D16C1D5FE00A9C812 /* Default@2x.png in Resources */,
+				BF5B766F16C1D5FE00A9C812 /* Default-568h@2x.png in Resources */,
+				BF5B767916C1D65000A9C812 /* BeatClusterStoryboard.storyboard in Resources */,
+				BF4A312716C207710040ACF1 /* NextButton.png in Resources */,
+				BF4A312816C207710040ACF1 /* noArtworkImage.png in Resources */,
+				BF4A312916C207710040ACF1 /* pauseButton.png in Resources */,
+				BF4A312A16C207710040ACF1 /* playButton.png in Resources */,
+				BF4A312B16C207710040ACF1 /* PreviousButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5B764F16C1D5FE00A9C812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5B766516C1D5FE00A9C812 /* main.m in Sources */,
+				BF5B766916C1D5FE00A9C812 /* BCAppDelegate.m in Sources */,
+				BF5B767216C1D5FE00A9C812 /* BeatCluster.xcdatamodeld in Sources */,
+				BF5B767F16C1D93800A9C812 /* BCHomeViewController.m in Sources */,
+				BF5B768216C1D9F900A9C812 /* BCJukeBoxCell.m in Sources */,
+				BF5B768516C1DC7A00A9C812 /* BCJukeBoxDetailViewController.m in Sources */,
+				BF2E2F5F16C1F189002CDDCD /* BCJukeBoxViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF5B766116C1D5FE00A9C812 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5B766216C1D5FE00A9C812 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5B767316C1D5FE00A9C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF5B767416C1D5FE00A9C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5B767616C1D5FE00A9C812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeatCluster/BeatCluster-Prefix.pch";
+				INFOPLIST_FILE = "BeatCluster/BeatCluster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF5B767716C1D5FE00A9C812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeatCluster/BeatCluster-Prefix.pch";
+				INFOPLIST_FILE = "BeatCluster/BeatCluster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5B764E16C1D5FE00A9C812 /* Build configuration list for PBXProject "BeatCluster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5B767316C1D5FE00A9C812 /* Debug */,
+				BF5B767416C1D5FE00A9C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5B767516C1D5FE00A9C812 /* Build configuration list for PBXNativeTarget "BeatCluster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5B767616C1D5FE00A9C812 /* Debug */,
+				BF5B767716C1D5FE00A9C812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF5B767016C1D5FE00A9C812 /* BeatCluster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF5B767116C1D5FE00A9C812 /* BeatCluster.xcdatamodel */,
+			);
+			currentVersion = BF5B767116C1D5FE00A9C812 /* BeatCluster.xcdatamodel */;
+			path = BeatCluster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF5B764B16C1D5FE00A9C812 /* Project object */;
+}
